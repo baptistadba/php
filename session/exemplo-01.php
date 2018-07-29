@@ -1,6 +1,6 @@
 <?php 
 
-session_start();
-$_SESSION["nome"] = "RS2D"; 
+require_once("config.php");
+$_SESSION["nome"] = "RS2D-RM"; 
 
  ?>
