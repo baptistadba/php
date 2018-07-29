@@ -1,0 +1,1 @@
+http://php.net/manual/pt_BR/book.session.php
