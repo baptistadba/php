@@ -1,5 +1,5 @@
 <?php 
-
+//teste de comentario;
 $veiculos = array(
 	"Fiat","Ford","Citroen",
 	"Pegaut","Honda","Suzuki",
