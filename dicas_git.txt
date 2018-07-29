@@ -19,5 +19,6 @@ git status
 git commit -m "Foi adicionado um comentario no arquivo" arrays/exemplo-01.php
 git push -u origin master
 
+git add *
 git commit -m "Foi adicionado um arquivo com dicas do GIT." dicas_git.txt
-dicas_git
+git push -u origin master
