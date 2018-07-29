@@ -1,0 +1,23 @@
+Conta github
+https://github.com/baptistadba/php.git
+
+git config --global user.name "baptistadba"
+git config --global user.email ""
+
+git clone https://github.com/baptistadba/php.git
+
+cd /PHP
+git add *
+git commit -m "Parte 1 do curso de PHP" *
+git push -u origin master
+
+------------------
+Enviando arquivo para o servidor:
+
+git status
+(quando arquivo foi modificado)
+git commit -m "Foi adicionado um comentario no arquivo" arrays/exemplo-01.php
+git push -u origin master
+
+git commit -m "Foi adicionado um arquivo com dicas do GIT." dicas_git.txt
+dicas_git
