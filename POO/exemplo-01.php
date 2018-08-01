@@ -1,5 +1,6 @@
 <?php 
 
+
 class Pessoa{
 
 	public $nome;
@@ -11,6 +12,7 @@ class Pessoa{
 
 }
 
+//instanciando o objeto
 $baptista = new Pessoa();
 $baptista->nome = "Baptista DBA";
 echo $baptista->falar();
