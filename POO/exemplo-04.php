@@ -28,7 +28,7 @@ class Endereço{
 
 }
 
-$meuEndereço = new Endereço("SQN 200, BLOCO X"," N° 300"," Brasília/DF");
+$meuEndereço = new Endereço("SQN 200, BLOCO X"," N° 300"," Sobradinho/DF");
 
 echo "</br>";
 echo "Meu endereco é: $meuEndereço.</br>";
