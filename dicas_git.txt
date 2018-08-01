@@ -12,6 +12,11 @@ git commit -m "Parte 1 do curso de PHP" *
 git push -u origin master
 
 ------------------
+Buscando arquivo do servidor:
+
+git pull
+
+
 Enviando arquivo para o servidor:
 
 git status
