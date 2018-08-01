@@ -14,7 +14,7 @@ class Pessoa{
 
 //instanciando o objeto
 $baptista = new Pessoa();
-$baptista->nome = "Baptista DBA";
+$baptista->nome = "Viuse Luba";
 echo $baptista->falar();
 echo $baptista->falar();
 
