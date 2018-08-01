@@ -2,7 +2,7 @@
 
 //pega o timestamp da data
 echo "Data do aniversario.</br>";
-$ts= strtotime("1981-08-06");
+$ts= strtotime("1988-08-08");
 echo date("l, d/m/Y",$ts);
 echo "</br>";
 echo "</br>";
