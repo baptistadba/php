@@ -21,7 +21,15 @@ require_once("config.php");
 
 
 //carrega um usuario apos logar no sistema com login e senha corretas.
-$usuario = new Usuario();
-$usuario->login("usertest","#$%%");
-echo $usuario;
+//$usuario = new Usuario();
+//$usuario->login("usertest","#$%%");
+//echo $usuario;
+
+
+//Adiciona um usuario (login e senha)
+$aluno = new Usuario("Mises","Ludwig");
+$aluno->insert();
+
+echo $aluno;
+
  ?>
