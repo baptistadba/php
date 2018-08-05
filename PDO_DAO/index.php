@@ -32,9 +32,15 @@ require_once("config.php");
 //echo $aluno;
 
 //busca o usurio e altera o usuario e a senha.
+//$usuario = new Usuario();
+//$usuario->loadById(22);
+//$usuario->update("Ludwing Von Mises","LUVOMI");
+//echo $usuario;
+
+//Deleta um usuario
 $usuario = new Usuario();
-$usuario->loadById(22);
-$usuario->update("Ludwing Von Mises","LUVOMI");
+$usuario->loadById(17);
+$usuario->delete();
 echo $usuario;
 
  ?>
