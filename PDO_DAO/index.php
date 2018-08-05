@@ -26,10 +26,15 @@ require_once("config.php");
 //echo $usuario;
 
 
-//Adiciona um usuario (login e senha)
-$aluno = new Usuario("Mises","Ludwig");
-$aluno->insert();
+//Criando um novo usuario (login e senha)
+//$aluno = new Usuario("Mises","Ludwig");
+//$aluno->insert();
+//echo $aluno;
 
-echo $aluno;
+//busca o usurio e altera o usuario e a senha.
+$usuario = new Usuario();
+$usuario->loadById(22);
+$usuario->update("Ludwing Von Mises","LUVOMI");
+echo $usuario;
 
  ?>
